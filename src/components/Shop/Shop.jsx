@@ -53,7 +53,9 @@ const addToCart=product=>{
                 ></Product>)
              }
             </div>
-           <Cart cart={cart}></Cart>
+            <div className='cart-container'>
+                <Cart cart={cart}></Cart>
+            </div>   
         </div>
     );
 };

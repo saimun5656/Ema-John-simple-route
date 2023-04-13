@@ -8,3 +8,10 @@
     gap: 20px;
     padding: 20px;
 }
+
+@media screen and (max-width:780px) {
+    .products-container{
+      display: flex;
+      flex-direction: column;
+    }
+}

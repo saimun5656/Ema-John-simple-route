@@ -1,0 +1,46 @@
+.item-img{
+    width: 90px;
+    border-radius: 8px;
+}
+.review-container{
+    display: flex;
+    gap: 15px;
+    border: 1px solid #95a0a7ce;
+    padding: 4px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    text-align: start;
+}
+.item-name{
+    font-size: 18px;
+    font-weight: 500;
+}
+.review-container p {
+    display: block;
+    margin-block-start: 2px;
+    margin-block-end: 2px;
+}
+.numbers{
+    color: #FF9900;
+}
+.details-container{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 350px;
+}
+.details{
+    max-width: 260px;
+}
+.icon-container{
+    background-color: #eb57575d;
+    color: #EB5757;
+    padding: 8px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+ 
+    margin-right: 10px;
+}
+
+

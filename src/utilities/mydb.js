@@ -10,4 +10,12 @@ const getCart=()=>{
     storedCart?shoppingCart=JSON.parse(storedCart):''
     return shoppingCart
 }
-export{addToDb,getCart}
+const removefromDb=(id)=>{
+    const savedCart=getCart();
+     if(id in savedCart){
+        delete savedCart[id] 
+        }
+    localStorage.setItem('shopping-cart',JSON.stringify(savedCart))
+    
+}
+export{addToDb,getCart,removefromDb}

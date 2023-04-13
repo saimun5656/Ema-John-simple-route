@@ -8,9 +8,9 @@ const Cart = (props) => {
     let totalShipping=0
     let quantity=0
     for(const Product of cart){
-        console.log(Product.quantity);
+        //console.log(Product.quantity);
         quantity=quantity+Product.quantity
-        total=total+Product.price
+        total=total+Product.price*Product.quantity
         totalShipping=totalShipping+Product.shipping
     }
     const tax=parseFloat((total*0.07).toFixed(2))
@@ -25,7 +25,7 @@ const Cart = (props) => {
              <p>Tax: ${tax}</p>
              <h4>Grand Total: ${GrandTotal}</h4>
              <button className='clear-btn'>Clear Cart</button>
-             <button>Review Order</button>
+             <button className='review-btn'>Review Order</button>
             </div>
         </div>
     );

@@ -9,6 +9,7 @@ import Shop from './components/Shop/Shop'
 import OrderReview from './components/OrderReview/OrderReview'
 import Inventory from './components/Inventory/Inventory'
 import Login from './components/Login/Login'
+import cartproductLoader from './Loader/cartProductLoader'
 const router=createBrowserRouter([
   {
     path:'/',
@@ -20,7 +21,8 @@ const router=createBrowserRouter([
       },
       {
         path:'orders',
-        element:<Orders></Orders>
+        element:<Orders></Orders>,
+        loader:cartproductLoader
       },
       {
         path:"order-review",
