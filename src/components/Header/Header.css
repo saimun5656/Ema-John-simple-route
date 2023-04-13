@@ -1,0 +1,19 @@
+.header-container{
+    color: rgb(235, 238, 240);
+    background-color:#1C2B35;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:20px 40px;
+   
+}
+.pages a{
+    text-decoration: none;
+    margin-right: 20px;
+    color: white;
+}
+.pages a:hover{
+    color:#ffff;
+    padding-bottom: 2px;
+    border-bottom:2px solid #f49402 ;
+}

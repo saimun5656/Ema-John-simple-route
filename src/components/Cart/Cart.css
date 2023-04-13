@@ -1,0 +1,16 @@
+.cart-container{
+    background-color:#ff99005f;
+    padding: 20px;
+    text-align: left;
+}
+.cart{
+   
+    position: sticky;
+    top: 10px;
+   
+}
+.clear-btn{
+    background-color:#FF3030;
+    width: 100%;
+    border-radius: 4px;
+}
