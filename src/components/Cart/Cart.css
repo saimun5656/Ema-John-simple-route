@@ -11,12 +11,20 @@
 }
 .clear-btn{
     background-color:#FF3030;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     width: 100%;
     border-radius: 3px;
+    color: white;
 }
-.review-btn{
+.checkout-btn{
     background-color:#FF9900;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     margin-top: 20px;
     width: 100%;
     border-radius: 3px;
+    color: white;
 }

@@ -15,7 +15,9 @@ const removefromDb=(id)=>{
      if(id in savedCart){
         delete savedCart[id] 
         }
-    localStorage.setItem('shopping-cart',JSON.stringify(savedCart))
-    
+    localStorage.setItem('shopping-cart',JSON.stringify(savedCart)) 
 }
-export{addToDb,getCart,removefromDb}
+const deleteCart=()=>{
+    localStorage.removeItem('shopping-cart')
+}
+export{addToDb,getCart,removefromDb,deleteCart}
